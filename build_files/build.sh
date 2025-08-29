@@ -23,4 +23,5 @@ dnf5 install -y tmux
 
 systemctl enable podman.socket
 
+echo 2 > /sys/module/hid_apple/parameters/fnmode
 mkdir /nix
